@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# ImageGenerate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application is a text-to-image generation app built using React JS and Pixabay API. It allows users to input textual descriptions or captions and generates corresponding visual images based on the provided text.
 
-## Available Scripts
+## Technologies
+- React JS - JavaScript library for building user interfaces
+- Pixabay API - RESTful API for retrieving images
 
-In the project directory, you can run:
+## Features
+### Some of the key features of Cookery Cove include:
 
-### `npm start`
+- Text input: Users can input textual descriptions or captions in the input field provided.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Image generation: The app generates corresponding visual images based on the provided text using the Pixabay API.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Responsive design: The app is designed to be responsive and can be accessed from any device with an internet connection.
 
-### `npm test`
+- Easy to use interface: The app has a user-friendly interface that is easy to use, even for those who are not familiar with text-to-image generation tools.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Fast performance: The app is designed to be fast and responsive, with quick image generation times and minimal lag.
 
-### `npm run build`
+## Installation and Usage
+### To install and use ImageGenerate, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Clone this repository to your local machine.
+- Open a terminal window in the project directory.
+- Run the following command to install the project dependencies:
+`npm install`
+- Open the src folder in the project directory.
+- Open the api.js file in your code editor.
+- At the top of the file, add the following line to define a constant variable called API_KEY and set it equal to your Pixabay API key:
+```javascript
+const API_KEY = 'YOUR_API_KEY_HERE';
+```
+- Replace YOUR_API_KEY_HERE with your actual Pixabay API key.
+- Run `npm start` to start the development server.
+- Open your web browser and navigate to http://localhost:3000 to view the app.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
+- If you would like to contribute to ImageGenerate, please submit a pull request with your changes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
+- This project is licensed under the MIT License - see the LICENSE file for details.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+- If you have any questions or comments about ImageGenerate, please contact me at kvaishnav408@gmail.com
