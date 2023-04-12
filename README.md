@@ -44,3 +44,6 @@ const API_KEY = 'YOUR_API_KEY_HERE';
 
 ## Contact
 - If you have any questions or comments about ImageGenerate, please contact me at kvaishnav408@gmail.com
+
+[ImageGenerate](https://imagegenerateapp.netlify.app/)
+[GitHub](https://github.com/kapil5849/ImageGenerate)
