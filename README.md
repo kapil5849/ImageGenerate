@@ -7,7 +7,7 @@ This application is a text-to-image generation app built using React JS and Pixa
 - Pixabay API - RESTful API for retrieving images
 
 ## Features
-### Some of the key features of Cookery Cove include:
+### Some of the key features of ImageGenerate include:
 
 - Text input: Users can input textual descriptions or captions in the input field provided.
 
